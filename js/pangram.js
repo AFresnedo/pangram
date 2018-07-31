@@ -13,7 +13,7 @@ testOverloop = 'abcdefghijklmnopqrstuvwxyzzzzzzzzzz'
 
 function pangram(string) {
   // if sting isnt at least 26 characters then it cant be pangram
-  if string.length < 26 {
+  if (string.length < 26) {
     return false;
   }
   // convert string to lowercase
