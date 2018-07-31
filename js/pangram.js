@@ -31,9 +31,8 @@ function pangram(string) {
     // otherwise alphabet's elements are no longer comparable, end function
     else {
       // stop checking alphabet
-      // alphabet being undefined is serving two purposes:
-      // breaking out of the loop and code robustness
-      alphabet = undefined;
+      // returning false breaks out of the loop
+      return false;
     }
   }
   // if alphabet is empty then string is a pangram
