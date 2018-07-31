@@ -8,6 +8,8 @@
 testTrue = 'abcdefghijklmnopqrstuvwxyz';
 testTrueCap = 'abcdefghijKlmnopqrStuvwxyz';
 testFalse = 'donotwork';
+// should only loop 26 times and return true
+testOverloop = 'abcdefghijklmnopqrstuvwxyzzzzzzzzzz'
 
 function pangram(string) {
   // convert string to lowercase
