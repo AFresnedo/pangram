@@ -8,7 +8,7 @@
 testTrue = 'abcdefghijklmnopqrstuvwxyz';
 testTrueCap = 'abcdefghijKlmnopqrStuvwxyz';
 testFalseLen = 'donotwork';
-testFalse = 'abcdefhijklmnopqrstuvwxyz';
+testFalse = 'aaa3aaabcdefhijklmnopqrstuvwxyz';
 // should only loop 26 times and return true
 testOverloop = 'abcdefghijklmnopqrstuvwxyzzzzzzzzzz'
 
