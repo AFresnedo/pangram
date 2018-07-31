@@ -16,7 +16,7 @@ function pangram(string) {
   alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
   // for every char in string
   for (var i = 0; i < string.length; i++) {
-    console.log('next loop with i being', i);
+    console.log('next loop begins, with i being', i);
     c = string.charAt(i);
     // if alphabet has something to compare to
     if (alphabet !== undefined && alphabet.length !== 0) {
