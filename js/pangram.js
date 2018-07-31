@@ -6,11 +6,13 @@
   // while loop for if array is empty or string is empty?
 
 testTrue = 'abcdefghijklmnopqrstuvwxyz';
+testTrueCap = 'abcdefghijKlmnopqrStuvwxyz';
 testFalse = 'donotwork';
 
 function pangram(string) {
-// TODO is this valid multi-line syntax?
-// construct alphabet each call
+  // convert string to lowercase
+  string = string.toLowerCase();
+  // construct alphabet each call
   alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
   // for every char in string
   for (var i = 0; i < string.length; i++) {
@@ -35,7 +37,6 @@ function pangram(string) {
     }
   }
   // if alphabet is empty then string is a pangram
-  // TODO make sure slicing last element of an array makes it empty
   console.log('alphabet is ', alphabet);
   if (alphabet.length === 0) {
     return true;
